@@ -1,0 +1,645 @@
+
+
+   /*=============================================================================================================================
+ 									max-width: 1409px Start
+ ==============================================================================================================================*/
+ @media only screen and (max-width: 1409px){
+      .menu .nav-item a {
+        padding: 10px;
+      }
+      .slidertext {
+        left: 5%;
+        max-width: 550px;
+      }
+      #slider .owl-nav .owl-prev,#slider .owl-nav .owl-next{
+        position: unset;
+        margin-top: 40px;
+    }
+    #slider .owl-nav{
+      display: flex;
+      justify-content: center;
+    }
+}
+ /*=============================================================================================================================
+ 									max-width: 1409px End
+ ==============================================================================================================================*/
+
+
+  /*=============================================================================================================================
+ 									max-width: 1199px   Start
+ ==============================================================================================================================*/
+ @media only screen and (max-width: 1199px) {
+   .slidertext h3 {
+     font-size: 40px;
+   }
+
+   .slidertext a {
+     padding: 12px 40px;
+   }
+
+   #slider .owl-nav .owl-prev,
+   #slider .owl-nav .owl-next {
+     position: unset;
+     margin-top: 40px;
+   }
+
+   #slider .owl-nav {
+     display: flex;
+     justify-content: center;
+   }
+
+   /*============================= Login Page Start =============================*/
+   .login .form {
+     padding: 35px !important;
+   }
+
+   .login-bg {
+     padding: 0;
+   }
+
+   /*============================= Login Page End =============================*/
+   /*============================= Product Page Start =============================*/
+  .down {
+    padding: 5px 15px;
+  }
+
+  .number {
+    padding: 5px 35px;
+  }
+
+  .add-to-cart a {
+    font-size: 14px;
+  }
+
+  .pro-content h1 {
+    font-size: 23px;
+  }
+
+  .text-decor-bold h2 {
+    font-size: 26px;
+  }
+
+  .clearfix .btn {
+    padding: 10px 30px;
+  }
+/*============================= Product Page End =============================*/
+}
+  /*=============================================================================================================================
+ 									max-width: 1199px   End
+ ==============================================================================================================================*/
+
+/*=============================================================================================================================
+									max-width: 991px   Start
+==============================================================================================================================*/
+ @media only screen  and (max-width: 991px) {
+    .nav-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .slid-img .pro-img img {
+      min-width: 950px;
+      overflow: hidden;
+      position: relative;
+    }
+    .slidertext h3 {
+      font-size: 35px;
+      line-height: 50px;
+    }
+    .slidertext {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        left: 55%;
+        margin: 0 auto;
+        max-width: 480px;
+    }
+    .slidertext a{
+      margin-top: 40px !important;
+    }
+    #slider .owl-nav .owl-prev,#slider .owl-nav .owl-next,
+    #category .owl-nav .owl-prev, #category .owl-nav .owl-next,
+    #testi .owl-nav .owl-prev, #testi .owl-nav .owl-next{
+        position: unset !important;
+        margin-top: 60px !important;
+        display: inline-block !important;
+    }
+    #slider .owl-nav,
+    .product .owl-nav
+    #testi .owl-nav{
+      display: flex;
+      justify-content: center;
+    }
+    .service{
+      flex-direction: column;
+    }
+    .main-footer .footer-bottom .footer-nav{
+      text-align:center;
+    }
+    /*============================= Login Page Start =============================*/
+	.left-side input,
+	.loginbtn{
+		padding: 8px;
+	}
+	.loginbtn span{
+		font-size: 14px;
+	}
+	.signin {
+		font-size: 30px;
+		margin-bottom: 25px;
+	}	
+	.an-account{
+		font-size: 14px;
+	}
+/*============================= Login Page End =============================*/
+
+.contact_message h3 {
+  margin-bottom: 20px;
+}
+/*============================= Category Page Start =============================*/
+.list-group .nav-item .accordion-button.active::after,
+.list-group .nav-item .accordion-button:hover::after {
+	background-image: url("../image/down-arrow-3.png")!important;
+}
+.list-group .nav-item a.accordion-button{
+	font-size: 14px;
+}
+.product-grid {
+	width: 50%;
+}
+/*============================= Category Page End =============================*/
+/*============================= Product Page Start =============================*/
+.qty{
+	display: block !important;
+}
+.add-cart{
+	margin-top: 25px;
+	margin-left: 0 !important;
+}
+.size-name span {
+	padding: 8px 15px;
+	font-size: 12px;
+}
+.number {
+	padding: 5px 40px;
+}
+/*============================= Product Page End =============================*/
+}
+/*=============================================================================================================================
+									max-width: 991px   End
+==============================================================================================================================*/
+  /*=============================================================================================================================
+ 									Max-Width: 767px   Start
+ ==============================================================================================================================*/
+ @media only screen and (max-width: 767px){
+  .navbar-nav .nav-link{
+    padding: 10px 20px !important;
+}
+.slidertext {
+  max-width: 430px;
+}
+.slid-img .pro-img img {
+  min-width: 650px !important;
+}
+.slidertext p {
+  margin-top: 10px;
+}
+.slidertext a {
+  margin-top: 25px !important;
+}
+.slid-img .pro-img img {
+  min-width: 1030px;
+  overflow: hidden;
+}
+.slidertext h3 {
+  font-size: 32px;
+  line-height: 45px;
+}
+.slidertext p {
+  height: 65px;
+  overflow: hidden;
+}
+.banneritem{
+  text-align: center;
+  background-position: center;
+  padding-top: 254px;
+}
+.banneritem2{
+  text-align: center;
+}
+.pro-img {
+  opacity: 1;
+  position: unset;
+  text-align: left !important;
+}
+.owl-theme .owl-nav {
+  margin-top: 20px;
+}
+.contact_message h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.product-img .button-group {
+  display: flex;
+  opacity: 1;
+  position: unset !important;
+  margin-top: 20px !important;
+  justify-content: center;
+  text-align: center;
+}
+.button-group{
+  text-align: center !important;
+}
+.discount-banner{
+  text-align: center;
+}
+.discount-banner .discounttxt{
+  text-align: center;
+}
+/*============================= About-us Page Start =============================*/
+.about-us{
+  margin-top: 20px !important;
+}
+.about-txt{
+  font-size: 30px;
+}
+/*============================= About-us Page End =============================*/
+.cartprice{
+  margin: 0 1px;
+}
+.cartedit{
+  margin-right: 3px;
+}
+/*============================= Category Page Start =============================*/
+.category{
+  margin-top: 20px !important;
+}
+/*============================= Category Page End =============================*/
+/*============================= Product Page Start =============================*/	
+.pro-content{
+  order: 3;
+}
+.small-slid{
+  order: 2;
+}
+.pro-content{
+  margin-top: 30px;
+}
+.tab-pane p{
+  font-size: 14px;
+}
+.tab-pane div{
+  font-size: 14px;
+}
+.form-review h6{
+  font-size: 14px;
+}
+.pro-content h1 {
+  font-size: 22px;
+}
+.tab-content h5{
+  letter-spacing: 0;
+}
+.qty-name {
+  margin: 15px 0 !important;
+}
+/*============================= Product Page End =============================*/
+/*============================= Footer Page Start =============================*/
+.widgets-section{
+  text-align: center;
+}
+.footer-widget{
+  text-align: center !important;
+}
+.social-links{
+  align-items: center !important;
+  float: none;
+}
+/*============================= Footer Page End =============================*/
+}
+  /*=============================================================================================================================
+ 									Max-Width: 767px   End
+ ==============================================================================================================================*/
+
+ /*=============================================================================================================================
+ 									Max-Width: 600px   Start
+ ==============================================================================================================================*/
+ @media only screen and (max-width: 600px){
+
+}
+  /*=============================================================================================================================
+ 									Max-Width: 600px   End
+ ==============================================================================================================================*/
+
+  /*=============================================================================================================================
+ 									Max-Width: 575px   Start
+ ==============================================================================================================================*/
+ @media only screen and (max-width: 575px){
+    .nav-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .slid-img .pro-img img {
+      min-width: 650px;
+    }
+    .slidertext {
+      left: 55%;
+      max-width: 300px;
+    }
+    .slidertext h3 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .slidertext p {
+      height: 55px;
+      font-size: 12px;
+      line-height: 25px;
+      margin-top: 10px;
+    }
+    .slidertext a {
+      margin-top: 20px !important;
+    }
+    .banneritem{
+      text-align: center;
+      background-position: center;
+      padding-top: 232px;
+    }
+    .owl-nav .owl-prev::after,
+    .owl-nav .owl-next::after {
+      width: 18px;
+      height: 18px;
+      background-image: url(../images/sarrow-1.png);
+    }
+    .paddingRight{
+      padding: 0 10px 0 10px;
+    }
+    .product-img{
+      padding: 0 10px 15px 10px;
+    }
+    .banner-img-1{
+      padding: 0 10px 0 10px !important;
+    }
+    .discount-banner{
+      text-align: center;
+    }
+    .discount-banner .discounttxt{
+      text-align: center;
+      justify-content: center;
+    }
+    /*============================= About Page Start =============================*/
+	.about-headtxt,.about-headimg {
+		margin-top: 30px;
+	}
+	.shop-txt{
+		font-size: 25px;
+	}
+	/*============================= About Page End =============================*/
+  /*============================= Account Page Start =============================*/
+	.account-detail h6 {
+		font-size: 15px;
+	}
+	.account-detail i {
+		font-size: 20px;
+	}
+	.account-detail {
+		padding: 15px 20px;
+	}
+	/*============================= Account Page End =============================*/
+  /*============================= Product Page Start =============================*/
+	hr{
+		height: 1px;
+		margin: 12px 0;
+	}
+	.pro-content {
+		margin-top: 30px;
+	}
+	.tab-content h5 {
+		font-size: 18px;
+	}
+	.table td,.form-group label{
+		font-size: 14px;
+	}
+	/*============================= Product Page End =============================*/
+}
+  /*=============================================================================================================================
+ 									Max-Width: 575px   End
+ ==============================================================================================================================*/
+
+  /*=============================================================================================================================
+ 									Max-Width: 425px   Start
+ ==============================================================================================================================*/
+ @media only screen and (max-width: 425px){
+    .nav-top{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .nav-link {
+      text-align: center;
+    }
+    .slid-img .owl-carousel .owl-item .pro-img img {
+      min-width: 470px;
+    }
+    .slidertext p{
+      display: none;
+    }
+    .slidertext h3 {
+      font-size: 20px;
+    }
+    .slidertext {
+      max-width: 200px;
+    }
+    /*============================= Login Page Start =============================*/
+	.login-bg {
+		padding: 0;
+	}
+	.check{
+		margin: 0;
+	}
+	.forgot a,.check span{
+		font-size: 14px;
+		margin-left: 3px !important;
+	}
+	.login .form {
+		padding: 25px !important;
+	}
+	input::placeholder{
+		font-size: 12px;
+	}
+	.loginbtn {
+		margin-top: 10px;
+	}
+	/*============================= Login Page End =============================*/
+  /*============================= About-us Page Start =============================*/
+	.about-txt {
+		font-size: 20px;
+		padding-bottom: 5px !important;
+	}
+	.shop-txt {
+		font-size: 18px;
+	}
+	.about-us p{
+		font-size: 14px;
+	}
+	/*============================= About-us Page End =============================*/
+
+  /*============================= Account Page End =============================*/
+  .login-details span{
+		font-size: 14px;
+	}
+  /*============================= Account Page End =============================*/
+  /*============================= Purchase Page Start =============================*/
+	.detail-title,.order-price,.edit-add{
+		font-size: 16px;
+	}
+	.shopping-cart {
+		margin-top: 20px;
+	}
+	.cart-details h3,.payment {
+		font-size: 18px;
+	}
+	.discount .btn,.modal-footer .btn {
+		padding: 12px 25px;
+	}
+	.login-details span,
+	.address-detail span,
+	.address-detail p,
+	.change-detail,
+	.pay span{
+		font-size: 14px;
+	}
+	/*============================= Purchase Page End =============================*/
+  /*============================= Category Page Start =============================*/
+	.product-grid {
+		width: 100%;
+	}	
+	/*============================= Category Page End =============================*/
+  /*============================= Product Page Start =============================*/
+	.pro-content h1 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.size-name span {
+		padding: 4px 10px;
+		font-size: 12px;
+	}
+	.number {
+		padding: 2px 30px;
+	}
+	.down {
+		padding: 2px 10px;
+	}
+	.tab-content h5 {
+		font-size: 16px;
+	}
+	.add-cart a {
+		padding: 10px 50px;
+		font-size: 12px;
+	}
+	.breadcrumb>li a::after {
+		padding: 0 8px;
+	}
+	.breadcrumb a{
+		font-size: 14px;
+	}
+	.qty-name {
+		margin: 10px 0 !important;
+		padding: 5px 0;
+	}
+	.rate:not(:checked)>label {
+		width: 20px;
+	}
+	.rate:not(:checked)>label:before {
+		font-size: 22px;;
+	}
+	/*============================= Product Page End =============================*/
+}
+ /*=============================================================================================================================
+ 									Max-Width: 425px   End
+ ==============================================================================================================================*/
+
+@media only screen and (max-width: 451px){
+    .nav-top {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+      }
+      .nav-top {
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-link {
+        text-align: center;
+      }
+      .item{
+        align-items: center;
+      }
+
+}
+ 
+  /*=============================================================================================================================
+ 									Max-Width: 375px   Start
+ ==============================================================================================================================*/
+ @media only screen and (max-width: 375px){
+
+}
+  /*=============================================================================================================================
+ 									Max-Width:   375px   End
+ ==============================================================================================================================*/
+
+   /*=============================================================================================================================
+ 									Max-Width: 320px   Start
+ ==============================================================================================================================*/
+ @media only screen and (max-width: 320px){
+  .owl-carousel .owl-nav button.owl-next,
+	.owl-carousel .owl-nav button.owl-prev,
+	.owl-carousel button.owl-dot {
+		padding: 7px !important;
+	}
+  .discount-banner {
+		background-image: url(../images/banner/banner-31.png);
+		background-position: center;
+		padding: 70px 0;
+    text-align: center;
+	}
+  /*============================= Header Page Start =============================*/
+    
+  /*============================= Header Page End =============================*/
+
+  /*============================= Login Page Start =============================*/
+	.login form {
+		padding: 20px !important;
+	}
+	.left-side input,
+	.right-side input,
+	.sign-btn,
+	.google {
+		padding: 5px;
+	}	
+	.signin {
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+	.google img {
+		width: 15px;
+		height: 15px;
+	}
+	.sign-btn span,
+	.google span {
+		font-size: 12px;
+		margin-left: 3px !important;
+	}
+	.forgot a,
+	.check span {
+		font-size: 12px !important;
+	}
+	.an-account {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	/*============================= Login Page End =============================*/
+}
+  /*=============================================================================================================================
+ 									Max-Width: 320px   End
+ ==============================================================================================================================*/
